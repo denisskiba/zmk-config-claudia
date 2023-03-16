@@ -52,6 +52,15 @@
 
             tapping-term-ms = <170>;
         };
+        tab: tab {
+            compatible = "zmk,behavior-tap-dance";
+            label = "TAB";
+            #binding-cells = <0>;
+            tapping-term-ms = <170>;
+            bindings =
+                <&kp ENTER>,
+                <&kp TAB>;
+        };
     };
 
     keymap {
@@ -62,7 +71,7 @@
        &esc       &kp W         &kp E       &kp R  &kp T          &kp Y  &kp U      &kp I    &kp O           &kp P
     &lt 2 A       &kp S         &kp D     &lt 3 F  &kp G          &kp H  &kp J      &kp K    &kp L        &kp SEMI
 &hs LSHFT Z  &hm LALT X         &kp C       &kp V  &kp B          &kp N  &kp M  &kp COMMA  &kp DOT  &hs RSHFT FSLH
-                         &mt LGUI DEL  &lt 1 BSPC           &lt 4 SPACE         &kp ENTER
+                         &mt LGUI DEL  &lt 1 BSPC           &lt 4 SPACE              &tab
             >;
         };
 
