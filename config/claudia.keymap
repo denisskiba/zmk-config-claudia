@@ -10,6 +10,11 @@
             bindings = <&kp LG(SPACE)>;
             key-positions = <30 31>;
         };
+
+        spotlight {
+            bindings = <&kp LC(SPACE)>;
+            key-positions = <32 33>;
+        };
     };
 
     behaviors {
