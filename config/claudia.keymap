@@ -13,9 +13,9 @@
     };
 
     behaviors {
-        HOMEROW_MODS: hm {
+        HOMEROW_MODS: HOMEROW_MODS {
             compatible = "zmk,behavior-hold-tap";
-            label = "HOMEROW_MODS";
+            label = "hm";
             bindings =
                 <&kp>,
                 <&kp>;
