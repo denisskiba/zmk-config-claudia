@@ -46,7 +46,7 @@
         BASE {
             bindings = <
        &kp Q       &kp W         &kp E       &kp R  &kp T          &kp Y  &kp U      &kp I    &kp O           &kp P
-     &lt 2 A       &kp S         &kp D     &lt 3 F  &kp G          &kp H  &kp J      &kp K    &kp L        &kp SEMI
+     &lt 4 A       &kp S         &kp D     &lt 3 F  &kp G          &kp H  &kp J      &kp K    &kp L        &kp SEMI
 &mt LSHIFT Z  &mt LALT X         &kp C       &kp V  &kp B          &kp N  &kp M  &kp COMMA  &kp DOT  &mt RSHFT FSLH
                           &mt LGUI DEL  &lt 1 BSPC           &lt 2 SPACE         &kp ENTER
             >;
