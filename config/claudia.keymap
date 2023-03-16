@@ -78,5 +78,14 @@
                 &trans  &trans            &trans          &trans
             >;
         };
+        
+        FUN {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
+                &trans  &trans            &trans          &trans
+            >;
+        };        
     };
 };
