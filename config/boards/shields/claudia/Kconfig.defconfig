@@ -4,6 +4,6 @@
 if SHIELD_CLAUDIA
 
 config ZMK_KEYBOARD_NAME
-    default "claudia"
+    default "Claudia"
 
 endif
