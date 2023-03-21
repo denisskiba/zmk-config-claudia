@@ -26,7 +26,7 @@
                 <&kp>;
 
             #binding-cells = <2>;
-            tapping-term-ms = <200>;
+            tapping-term-ms = <175>;
             quick-tap-ms = <0>;
             flavor = "balanced";
         };
@@ -49,14 +49,11 @@
             bindings =
                 <&kp Q>,
                 <&kp ESC>;
-
-            tapping-term-ms = <170>;
         };
         tab: tab {
             compatible = "zmk,behavior-tap-dance";
             label = "TAB";
             #binding-cells = <0>;
-            tapping-term-ms = <170>;
             bindings =
                 <&kp ENTER>,
                 <&kp TAB>;
