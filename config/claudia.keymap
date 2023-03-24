@@ -57,7 +57,7 @@
             label = "TAB";
             #binding-cells = <0>;
             bindings =
-                <&kp ENTER>,
+                <&mt LCTRL ENTER>,
                 <&kp TAB>;
 
             tapping-term-ms = <250>;
