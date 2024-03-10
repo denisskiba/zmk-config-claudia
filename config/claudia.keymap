@@ -103,7 +103,7 @@
             bindings = <
 &kp EXCL   &kp AT    &kp HASH      &kp DLLR    &kp PRCNT     &kp CARET  &kp AMPS   &kp STAR   &kp LPAR  &kp RPAR
 &kp F1     &kp F2    &kp F3        &kp F4      &kp F5        &kp F6     &kp F7     &kp F8     &kp F9    &kp F10
-&kp LSHFT  &kp LALT  &out OUT_TOG  &bt BT_CLR  &sys_reset    &trans     &kp EQUAL  &kp CARET  &kp AMPS  &kp QUESTION
+&kp LSHFT  &kp LALT  &out OUT_TOG  &bt BT_CLR  &sys_reset    &trans     &kp EQUAL  &kp CARET  &kp AMPS  &kp LS(NUMBER_7)
                      &trans        &trans                    &trans                &trans
             >;
         };
