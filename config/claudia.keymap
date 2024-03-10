@@ -9,12 +9,12 @@
 
         lang {
             bindings = <&kp LG(SPACE)>;
-            key-positions = <30 31>;
+            key-positions = <32 33>;
         };
 
         spotlight {
             bindings = <&kp LC(SPACE)>;
-            key-positions = <32 33>;
+            key-positions = <31 30>;
         };
     };
 
@@ -103,7 +103,7 @@
             bindings = <
 &kp EXCL   &kp AT    &kp HASH      &kp DLLR    &kp PRCNT     &kp CARET  &kp AMPS   &kp STAR   &kp LPAR  &kp RPAR
 &kp F1     &kp F2    &kp F3        &kp F4      &kp F5        &kp F6     &kp F7     &kp F8     &kp F9    &kp F10
-&kp LSHFT  &kp LALT  &out OUT_TOG  &bt BT_CLR  &sys_reset    &trans     &kp EQUAL  &kp CARET  &kp AMPS  &kp QMARK
+&kp LSHFT  &kp LALT  &out OUT_TOG  &bt BT_CLR  &sys_reset    &trans     &kp EQUAL  &kp CARET  &kp AMPS  &kp QUESTION
                      &trans        &trans                    &trans                &trans
             >;
         };
